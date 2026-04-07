@@ -13,16 +13,26 @@ Controllers (app/Http/Controllers) — бизнес-логика
 Views (resources/views) — интерфейс пользователя
 
 Основные директории
+
 app/ — основная логика приложения
+
 routes/ — маршруты (web.php, api.php)
+
 resources/ — шаблоны (Blade), стили, JS
+
 database/ — миграции и сиды
+
 config/ — конфигурация проекта
+
 public/ — точка входа (index.php)
+
 storage/ — кэш, логи, файлы
+
 tests/ — тесты
+
 vendor/ — зависимости (Composer)
-⚙️ Установка и запуск
+
+Установка и запуск
 Установить зависимости:
 composer install
 npm install
